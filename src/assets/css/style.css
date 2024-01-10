@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700&display=swap');
+.v-locale--is-ltr {
+  direction: rtl !important;
+}
+body{
+  font-family: 'Tajawal', sans-serif !important;
+  overflow: hidden;
+  
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+*{
+  font-family: 'Tajawal', sans-serif !important;
+  text-transform: capitalize;
+
+ }
+.application {
+  overflow: hidden;
+  font-family: 'Tajawal', sans-serif !important;
+}
+.v-main{
+  overflow: hidden !important;
+}
