@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pt-md-16 pt-0">
     <HeaderTitle
       title="خدماتنا"
       subtitle="يمكنكم الاطلاع علي جميع خدماتنا الآن"

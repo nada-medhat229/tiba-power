@@ -51,11 +51,16 @@ export default {
             twitter,
             items: [
       { text: "خدماتنا", route: "/services" },
-      { text: "منتجاتنا", route: "/support-service" },
-      { text: " من نحن", route: "/blog" },
-      { text: " اتصل بنا", route: "/about-us" },
+      { text: "منتجاتنا", route: "/products" },
+      { text: " من نحن", route: "/about" },
+      { text: " اتصل بنا", route: "/contact" },
     ],
         }
+    },
+    methods:{
+        redirectto(path) {
+      this.$router.push(path);
+    },
     }
 }
 </script>

@@ -63,9 +63,9 @@ export default {
     items: [
       { text: "الرئيسية", route: "/" },
       { text: "خدماتنا", route: "/services" },
-      { text: "منتجاتنا", route: "/support-service" },
-      { text: " من نحن", route: "/blog" },
-      { text: " اتصل بنا", route: "/about-us" },
+      { text: "منتجاتنا", route: "/products" },
+      { text: " من نحن", route: "/about" },
+      { text: " اتصل بنا", route: "/contact" },
     ],
   }),
 

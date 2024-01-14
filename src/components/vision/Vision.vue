@@ -13,11 +13,7 @@
         <v-col cols="12" md="6">
           <Imagesside />
         </v-col>
-        <v-col cols="12">
-            <div class="w-100 text-end">
-                <img :src="Pattern" alt="" >
-            </div>
-        </v-col>
+
       </v-row>
     </v-container>
   </section>
@@ -26,7 +22,6 @@
 import path from "../../assets/image/Path.png";
 import Content from "./Content.vue";
 import Imagesside from "./Imagesside.vue";
-import Pattern from "../../assets/image/Pattern.png";
 export default {
   components: {
     Content,
@@ -35,7 +30,6 @@ export default {
   data() {
     return {
       path: path,
-      Pattern,
     };
   },
 };
